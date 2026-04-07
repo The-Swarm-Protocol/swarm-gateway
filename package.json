@@ -1,0 +1,27 @@
+{
+  "name": "@swarmprotocol/gateway-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Lightweight gateway agent for distributed job execution on the Swarm platform. Ed25519 keypair auth, pull-based task queue.",
+  "bin": {
+    "gateway-agent": "scripts/gateway.mjs"
+  },
+  "files": [
+    "scripts/",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/The-Swarm-Protocol/Swarm.git",
+    "directory": "GatewayAgent"
+  },
+  "keywords": [
+    "swarm",
+    "gateway",
+    "distributed",
+    "execution",
+    "ed25519"
+  ],
+  "dependencies": {}
+}
